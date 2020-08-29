@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    font-size: 3em;
+    text-align: center;
+    padding: 1em;
+}
+.card {
+    border: 2px solid #5e5e5e;
+    position: relative;
+    float: left;
+    background-color: #999999;
+}
+.card-content {
+    float: left;
+    padding: 1em;
+}
+.card-label {
+    float: right;
+    clear: both;
+    padding: .2em 1.5em;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+    font-weight: bold;
+}
+.card-label-1 {
+    background-color: #d59898;
+    color: black;
+}
+.card-label-2 {
+    background-color: #c14543;
+    color: white;
+}
+.card-label-3 {
+    background-color: #e5d198;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .card {
+        width: 80%;
+        margin: 1em 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-1, .card-2 {
+        width: 45%;
+        margin: 1em 2.5%;
+    }
+    .card-3 {
+        width: 95%;
+        margin: 1em 2.5%;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 30%;
+        margin: 1em 1.66%;
+    }
+}
