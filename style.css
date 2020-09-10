@@ -1,0 +1,45 @@
+.logo {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.5em;
+    color: #33302b;
+}
+
+.footer-logo {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1em;
+    color: #33302b;
+}
+
+.footer-back-to-top>a {
+    font-size: .9em;
+    color: #33302b;;
+}
+
+
+.fitted-image {
+    max-width: 100%;
+}
+
+.card-title-style {
+    font-size: 1.2em;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.category-title {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.card-body-style {
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    font-size: 0.8em;
+    color: #33302b
+}
+
+.footer-style {
+    font-size: .8em;
+}
